@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.class{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color input{
+    border: none;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: transparent;
+}
+.color p{
+    font-size: 10px;
+}
+.color{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+.line p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.line button{
+    width: 200px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+.circle a{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}
+.Polygon{
+    width: 700px;
+    padding: 30px;
+    backdrop-filter: blur(30px);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.image{
+    background-image: url("bd5.jpg");
+    padding-bottom: 100px;
+}
+@media (max-width:400px)
+{
+    .Polygon{
+        width: 200px;
+    }
+}
+@media (min-width:401px) and (max-width:440px)
+{
+    .Polygon{
+        width: 230px;
+    }
+}

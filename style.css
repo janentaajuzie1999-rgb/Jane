@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    color: blue;
+}
+
+.Bananas {
+    background-color: blueviolet;
+}
+
+#email {
+    color: blueviolet
+}
+.file{
+    color: brown;
+}
+
+p{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+font-style: oblique;
+font-weight: bold;
+width: 300px;
+height: 200px;
+padding: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 100px;
+border-width: 20px;
+border-style:double;
+border-color: blue;
+border: 20px dotted red;
+border-radius: 50%;
+}
+.image img{
+    width: 50px;
+    height: 50px;
+}
+.Tutorials button{
+border: none;
+background-color: transparent;
+}
+.Tutorials{
+    display: flex;
+}
